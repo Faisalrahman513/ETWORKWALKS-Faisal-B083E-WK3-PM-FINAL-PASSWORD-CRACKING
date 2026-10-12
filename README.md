@@ -32,7 +32,7 @@ This project covers Week 3 security modules focusing on credential vulnerability
 
 ## 4. Step-by-Step Implementation & Evidence
 
-### Step 1: PDF Hash Extraction (`40060.jpg`)
+### Step 1: PDF Hash Extraction
 Extracted crackable hashes from the password-protected document (`My Locked PDF1.pdf`) using online hash extractor tools to convert the document structure into a format compatible with cracking suites.
 
 <img width="800" height="450" alt="image" src="https://github.com/user-attachments/assets/0fac637a-668c-4aa6-b97a-e4752710849e" />
@@ -41,7 +41,7 @@ Extracted crackable hashes from the password-protected document (`My Locked PDF1
 
 ---
 
-### Step 2: John the Ripper & Johnny GUI Execution (`40061.jpg`)
+### Step 2: John the Ripper & Johnny GUI Execution
 Imported the extracted hash into Johnny (the graphical front-end for John the Ripper) and initiated a dictionary attack against the target structure.
 
 <img width="800" height="450" alt="image" src="https://github.com/user-attachments/assets/b4a61c1d-f779-4727-8b5d-cdfd1d94816c" />
@@ -50,7 +50,7 @@ Imported the extracted hash into Johnny (the graphical front-end for John the Ri
 
 ---
 
-### Step 3: Password Cracking & Match Verification (`40064.jpg`)
+### Step 3: Password Cracking & Match Verification
 Executed wordlist checks against the extracted hash until a successful match was found, recovering the plaintext password to unlock the file.
 
 <img width="800" height="450" alt="image" src="https://github.com/user-attachments/assets/584b9f0a-2bbd-4c5a-a4e5-3ce37d74a746" />
@@ -58,7 +58,7 @@ Executed wordlist checks against the extracted hash until a successful match was
 
 ---
 
-### Step 4: Flag Capture & Verification (`40062.jpg`)
+### Step 4: Flag Capture & Verification
 Unlocked the secure PDF document using the recovered password, revealing the official completion flag (`nw{cybersecurity_flag...}`).
 
 <img width="800" height="450" alt="image" src="https://github.com/user-attachments/assets/e47f9603-ed42-49e9-a796-5428891855a8" />
